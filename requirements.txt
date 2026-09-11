@@ -1,0 +1,4 @@
+feedparser==6.0.14
+ebooklib>=0.20
+requests
+trafilatura>=2.2.0
