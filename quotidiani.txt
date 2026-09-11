@@ -1,0 +1,8 @@
+# aggiungi quotidiani cercdando il nome del quiotidiano + rss e inserendo la pagina
+# TODO: capire se si aggiornano automaticamente
+
+# corriere della sera
+https://xml2.corriereobjects.it/feed-hp/homepage-restyle-2025.xml
+
+# la repubblica
+https://www.repubblica.it/rss/homepage/rss2.0.xml
