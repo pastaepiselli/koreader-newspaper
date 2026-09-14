@@ -1,15 +1,15 @@
 import feedparser
-import datetime
+from datetime import datetime
 from ebooklib import epub
 import os
 
-from extract_text import fetch_article_text
+from src.extract_text import fetch_article_text, make_file_title
 
 """
 metodo per la creazione del file epub
 """
 
-OUTPUT_DIR = "../ebooks"
+OUTPUT_DIR = "ebooks"
 
 def create_ebook(feed: feedparser.FeedParserDict) -> str | None:
     """
@@ -71,4 +71,3 @@ def create_ebook(feed: feedparser.FeedParserDict) -> str | None:
     epub.write_epub(filename, book)
 
     return filename
-
